@@ -54,7 +54,3 @@ strict = true
 warn_unreachable = true
 warn_unused_ignores = true
 show_error_codes = true
-
-[[tool.mypy.overrides]]
-module = "tests.*"
-disallow_untyped_defs = false
